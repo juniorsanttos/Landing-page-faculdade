@@ -1,0 +1,52 @@
+/* Dispositivos pequenos (celulares em retrato) */
+@media (max-width: 768px) {
+    body{
+        font-size: 12px;
+    }
+   
+    header img{
+        max-width: 15rem;
+        max-height: 15rem;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .botao{
+    background-color: #02182B;
+    color: #DDF8E8;
+    border: 2px solid #446DF6;
+    padding: 1rem 2rem;
+    border-radius: 52px;
+    font-size: 1.0rem;
+    cursor: pointer;
+    transition: background-color 1.3s ease;
+    width: 190px;
+    height: 40px;
+
+    }
+
+    .ingresso{
+        font-size: 6px;
+        padding-left: 5px;
+    }
+    .form-check-input{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 79px;
+       
+    
+
+    }
+}

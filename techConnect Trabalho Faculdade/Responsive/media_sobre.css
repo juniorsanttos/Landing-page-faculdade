@@ -1,0 +1,25 @@
+@media  screen and (max-width: 750px) {
+    header{
+        flex-direction: column;
+    }
+    
+    .container{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .cartão{
+        width: 90%;
+        height: 40vh;
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .cartão{
+        width: 90%;
+        height: 50vh;
+        margin-top: 25px;
+    }    
+}
